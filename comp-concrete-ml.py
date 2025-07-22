@@ -73,7 +73,7 @@ st.write('---')
 
 # Reads in saved classification model
 import pickle
-load_clf = pickle.load(open('concrete_eco.pkl', 'rb'))
+load_clf = pickle.load(open('concrete_eco1.pkl', 'rb'))
 st.header('Prediction of Concrete Compressive Strength (Mpa)')
 
 # Apply model to make predictions
